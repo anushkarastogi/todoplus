@@ -1,0 +1,106 @@
+/* ToDoList.css */
+/* api key ae76b6ed169549c1ba0baf6b4d6773fe*/
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.search-container .add-task-button {
+  margin-left: 8px;
+}
+.todo-list {
+    background-color: #f5f5f5;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .todo-list h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .todo-list p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .todo-list form {
+    margin-bottom: 16px;
+  }
+  
+  .todo-list form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 8px;
+  }
+  
+  .todo-list form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .todo-list li input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .todo-list li button {
+    padding: 4px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+ 
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+  }
+  
+  .task-list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .remove-task-button {
+    margin-left: 10px;
+  }
